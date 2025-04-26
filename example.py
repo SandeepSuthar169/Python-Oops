@@ -8,3 +8,7 @@ list = 5000000
 
 # lst = lst.index(3)
 # print(lst)
+
+from oops_proj import Chartbook
+
+user = Chartbook()

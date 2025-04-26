@@ -19,9 +19,9 @@ class Chartbook:
         elif user_input == "2":
             self.signin()
         elif user_input == "3":
-            pass
+            self.my_post()
         elif user_input == "4":
-            pass
+            self.send_msg()
         else:
             exit()
 
@@ -46,7 +46,30 @@ class Chartbook:
             else:
                 print("plase input correct credentials...")
         print("\n")
-        self.menu()                 
+        self.menu()    
 
 
-obj = Chartbook()            
+    def my_post(self):
+        if self.loggedin == True:
+            txt = input("Enter your masseage here:->>") 
+            print(f"Following content has been posted :->> {txt}")
+
+        else:
+            print("you need to signin forst to post sometging.....") 
+        print("\n")
+        self.menu()   
+
+    
+
+    def send_msg(self):
+        if self.loggedin ==True:
+            txt = input("enter your masage here ::->>") 
+            friend = input("whon ot send the msg :->>")
+            print(f"your massage has been send to {friend}") 
+        else:
+            print(print('you need to sigin first to post something..........'))
+        print("\n") 
+        self.menu()                                      
+
+
+# obj = Chartbook()            
