@@ -22,3 +22,4 @@ sam = employee() #obj / instance of the class
 
 print(type(sam))
 
+
