@@ -1,9 +1,32 @@
 class Chartbook:
+    __user_id = 1
+
     def __init__(self):
+        self.id = Chartbook.__user_id
+        Chartbook.__user_id += 1
+        self.__name = " defualt user"
         self.username = " "
         self.pssword = " "
         self.loggedin = False
-        self.menu()
+        # self.menu()
+
+    @staticmethod
+    def get_id():
+        return Chartbook.__user_id
+
+    @staticmethod 
+    def set_id(val):
+        Chartbook.__user_id = val       
+
+
+
+    def get_name(self):
+        return self.__name
+    
+
+    def set_name(self, values):
+        self.__name = values
+       
 
 
 

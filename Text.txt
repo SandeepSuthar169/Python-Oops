@@ -7,4 +7,12 @@
    > code reusability.
    > dubugging
    > easy to colab
-   
+4. End ot end project (chaetbook class) 
+   > function and method 
+   > magic method and dunder method 
+   > self
+   > You can create attribure outside class as well
+
+   > encapsulation 
+   > getter and setter
+   > static method
