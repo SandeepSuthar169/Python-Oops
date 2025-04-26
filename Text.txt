@@ -2,17 +2,25 @@
 2. Class has data or attribure, func or methods
    > attributes get called itself and method are called manually
    > everything in python is an object (data structure, data type ...)
+
 3. Advantages of oops  
    > you can create your own datatype. 
    > code reusability.
    > dubugging
    > easy to colab
+
 4. End ot end project (chaetbook class) 
    > function and method 
    > magic method and dunder method 
    > self
    > You can create attribure outside class as well
-
    > encapsulation 
    > getter and setter
    > static method
+
+5. Inheritance
+   > code reusability, pareht has no access to child class
+   > Constructor, Non privete attribure, Non privete methods
+   > constructor overloading  &  method overloading
+   >Super keyword (can be used only inside class, can not access variables/attribures, used only insidechild class)
+   
