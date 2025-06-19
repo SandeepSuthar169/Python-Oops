@@ -1,11 +1,11 @@
 lst = [1, 2, 3]
 str = "I am Data scientist"
 list = 5000000
-#
+
 print(type(lst))
 print(type(str))
 print(type(list))
-#
+
 lst = lst.index(3)
 print(lst)
 
@@ -36,18 +36,18 @@ print(user2.id)
 
 
 
-# print(user.get_name())
+print(user.get_name())
 
-# user.set_name('xyz')
-# print(user.get_name())
-# #user.send_msg()
-# # user = Chartbook()
+user.set_name('xyz')
+print(user.get_name())
+user.send_msg()
+user = Chartbook()
 
 
-# fuction vs method 
-# lst = [1, 2, 3, 4, 4]
-# a1 = len(lst)
-# print(a1)
+fuction vs method 
+lst = [1, 2, 3, 4, 4]
+a1 = len(lst)
+print(a1)
 
 # # method
 # user = Chartbook()
